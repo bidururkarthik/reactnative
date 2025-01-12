@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb+srv://karthik:karthik794@cluster0.2fryehe.mongodb.net/reactNativeCRUD", { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect("", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error(err));
 
